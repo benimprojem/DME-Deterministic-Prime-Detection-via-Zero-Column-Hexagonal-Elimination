@@ -35,7 +35,7 @@ For each prime module (p), the first hit point (I) after the starting point (S) 
 * **Computational Cost:** With this method, instead of performing a primality test for every number, the algorithm jumps directly onto the target (Direct Target).
 * **Scalability:** Modular synchronization is instantaneous even at massive values like S = 10^15; the system is unaffected by the magnitude of the starting coordinate.
 
-> **Technical Note:** The `if first_match == p: first_match += p` condition is the protection mechanism that prevents the module itself (the prime itself) from being accidentally deleted.
+> **Technical Note:** The `if start_n + first_match == p: first_match += p` condition is the protection mechanism that prevents the module itself (the prime itself) from being accidentally deleted.
 
 ---
 
@@ -100,4 +100,5 @@ The analysis was completed in as little as **5.01 seconds** on limited hardware 
 
 ---
 © 2026 - D'ssConnecTed | Project: DME_Q15_Purity | cemden@gmail.com
+
 Licensing and Distribution The Dynamic Modular Sieve (DME) methodology and its reference implementation (DME.py) are released under the MIT License. This ensures that the deterministic "Direct Offset" logic can be freely integrated into modern computational stacks, provided that the original author, D'ssConnecTed (cemden@gmail.com), is credited.
