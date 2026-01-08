@@ -1,6 +1,6 @@
 # Dynamic Modular Sieve (DMS) Methodology
 **Author:** D'ssConnecTed (cemden@gmail.com) | **Date:** January 2026
-
+> **Thought process:** It stems from the principle that if there is no pattern for prime numbers among the natural numbers, then there must be a pattern for non-prime numbers among (6n ± 1). Instead of hunting down prime numbers among the natural numbers, hunt down non-prime numbers among the prime numbers; the remaining ones are prime.
 > **ABSTRACT:** This paper presents the Dynamic Modular Sieve (DME) theory, which completely eliminates probabilistic approaches and cumbersome division operations in prime number detection. DME does not require a specific starting point based on the hexagonal structure of the number line (6n ± 1); instead, it treats the number line as a whole and purifies contamination (composite numbers) through modular resonances. In the final section of the study, data with 100% accuracy obtained at the 10^15 scale on legacy hardware is shared.
 
 ---
@@ -102,3 +102,4 @@ The analysis was completed in as little as **5.01 seconds** on limited hardware 
 © 2026 - D'ssConnecTed | Project: DME_Q15_Purity | cemden@gmail.com
 
 Licensing and Distribution The Dynamic Modular Sieve (DME) methodology and its reference implementation (DME.py) are released under the MIT License. This ensures that the deterministic "Direct Offset" logic can be freely integrated into modern computational stacks, provided that the original author, D'ssConnecTed (cemden@gmail.com), is credited.
+
